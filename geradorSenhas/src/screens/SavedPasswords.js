@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, FlatList, StyleSheet } from "react-native";
 
 export default function SavedPasswords({ route }) {
-    const { savedPasswords } = route.params; // Recebendo as senhas salvas via parametro de navegação
+    const { savedPasswords } = route.params; 
 
     return (
         <View style={styles.container}>
